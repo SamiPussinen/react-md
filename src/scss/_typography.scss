@@ -58,79 +58,79 @@ $md-font-weights: ($md-font-light $md-font-regular $md-font-medium $md-font-bold
 
 /// The `.md-display-4` font size.
 /// @type Number
-$md-display-4-font-size: 112px;
+$md-display-4-font-size: 75.2px;
 
 /// The `.md-display-4` line height.
 /// @type Number
-$md-display-4-line-height: 128px;
+$md-display-4-line-height: 90px;
 
 /// The `.md-display-3` font size.
 /// @type Number
-$md-display-3-font-size: 56px;
+$md-display-3-font-size: 60px;
 
 /// The `.md-display-3` line height.
 /// @type Number
-$md-display-3-line-height: 84px;
+$md-display-3-line-height: 72px;
 
 
 /// The `.md-display-2` font size.
 /// @type Number
-$md-display-2-font-size: 45px;
+$md-display-2-font-size: 53.5px;
 
 /// The `.md-display-2` line height.
 /// @type Number
-$md-display-2-line-height: 48px;
+$md-display-2-line-height: 64px;
 
 
 /// The `.md-display-1` font size.
 /// @type Number
-$md-display-1-font-size: 34px;
+$md-display-1-font-size: 47px;
 
 /// The `.md-display-1` line height.
 /// @type Number
-$md-display-1-line-height: 40px;
+$md-display-1-line-height: 56px;
 
 
 /// The `.md-headline` font size.
 /// @type Number
-$md-headline-font-size: 24px;
+$md-headline-font-size: 40px;
 
 /// The `.md-headline` line height.
 /// @type Number
-$md-headline-line-height: 32px;
+$md-headline-line-height: 48px;
 
 
 /// The `.md-title` font size.
 /// @type Number
-$md-title-font-size: 20px;
+$md-title-font-size: 33px;
 
 /// The `.md-title` line height.
 /// @type Number
-$md-title-line-height: 28px;
+$md-title-line-height: 40px;
 
 
 /// The \`.md-subheading-1` and `.md-subheading-2` font size for
 /// mobile devices.
 /// @type Number
-$md-subheading-mobile-font-size: 16px;
+$md-subheading-mobile-font-size: 27px;
 
 /// The \`.md-subheading-1` and `.md-subheading-2` font size for
 /// desktop screens.
 /// @type Number
-$md-subheading-desktop-font-size: 15px;
+$md-subheading-desktop-font-size: 26px;
 
 /// The `.md-subheading-2` line height.
 /// @type Number
-$md-subheading-2-line-height: 28px;
+$md-subheading-2-line-height: 36px;
 
 /// The `.md-subheading-1` line height.
 /// @type Number
-$md-subheading-1-line-height: 24px;
+$md-subheading-1-line-height: 32px;
 
 /// The base font size. This is really just the mobile font size
 /// without the `px` suffix.
 /// @access private
-$md-font-size-base: 14;
+$md-font-size-base: 21;
 
 /// The `.md-body-1` and `.md-body-2` font size for mobile devices.
 /// @type Number
@@ -139,19 +139,19 @@ $md-body-mobile-font-size: #{$md-font-size-base}px;
 /// The `.md-body-1` and `.md-body-2` font size for
 /// desktop screens.
 /// @type Number
-$md-body-desktop-font-size: 13px;
+$md-body-desktop-font-size: 20px;
 
 /// The `.md-body-2` fnt size.
 /// @type Number
-$md-body-2-line-height: 24px;
+$md-body-2-line-height: 28px;
 
 /// The `.md-body-1` fnt size.
 /// @type Number
-$md-body-1-line-height: 20px;
+$md-body-1-line-height: 24px;
 
 /// The `.md-caption` font size.
 /// @type Number
-$md-caption-font-size: 12px;
+$md-caption-font-size: 13px;
 
 /// The font icon size.
 /// @type Number
@@ -160,7 +160,7 @@ $md-font-icon-size: 24px;
 
 /// The line height to use on almost all elements.
 /// @type Number
-$md-line-height: 20 / $md-font-size-base !default;
+$md-line-height: 28 / $md-font-size-base !default;
 
 
 /// A placeholder for styling a class with the material design tracking of -10.

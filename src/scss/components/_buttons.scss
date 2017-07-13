@@ -1,3 +1,5 @@
+@include react-md-typography
+
 ////
 /// @group buttons
 ////
@@ -39,11 +41,11 @@ $md-btn-accessible-height: 48px;
 
 /// The font size for buttons on mobile devices.
 /// @type Number
-$md-btn-mobile-font-size: 14px;
+$md-btn-mobile-font-size: $md-body-mobile-font-size;
 
 /// The height for button on mobile devices.
 /// @type Number
-$md-btn-mobile-height: 36px;
+$md-btn-mobile-height: 44px;
 
 /// The minimum margin to use for fixed floating buttons on mobile-devices.
 /// @type Number
@@ -51,11 +53,11 @@ $md-btn-mobile-floating-margin: 16px;
 
 /// The font size for buttons on desktop screens.
 /// @type Number
-$md-btn-desktop-font-size: 13px;
+$md-btn-desktop-font-size: $md-body-desktop-font-size;
 
 /// The height for buttons on desktop screens.
 /// @type Number
-$md-btn-desktop-height: 32px;
+$md-btn-desktop-height: 48px;
 
 /// The minimum margin to use for fixed floating buttons on desktop screens.
 /// @type Number

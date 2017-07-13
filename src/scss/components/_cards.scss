@@ -1,3 +1,5 @@
+@include react-md-typography
+
 ////
 /// @group cards
 ////
@@ -105,7 +107,7 @@ $md-card-padding-extra: 24px;
 /// Includes the styles for the `CardText` component only.
 @mixin react-md-cards-text {
   .md-card-text {
-    font-size: 14px;
+    font-size: $md-body-desktop-font-size;
     padding: $md-default-padding;
 
     p {
@@ -144,7 +146,7 @@ $md-card-padding-extra: 24px;
     }
 
     &--large {
-      font-size: 24px;
+      font-size: $md-title-font-size;
     }
   }
 }
